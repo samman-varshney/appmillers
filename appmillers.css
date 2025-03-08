@@ -1,0 +1,225 @@
+body {
+    margin: 0px 0px;
+    font-family: Poppins, sans-sarif;
+}
+
+header {
+    line-height: 22px;
+    background-color: #fcc861;
+    padding: 8px 28px;
+    margin: none;
+    display: flex;
+    justify-content: center;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+.section-1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://appmillersonline.files.wordpress.com/2023/09/computer-2838920_1280.jpg);
+    background-size: cover;
+    background-position: 39%;
+
+
+}
+
+.div1 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(4, 4, 4, 0.35);
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.div2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.div2 div {
+    color: white;
+    font-size: 1.15em;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    width: 504px;
+    text-align: center;
+
+}
+
+.h1+p {
+    width: 60%;
+    align-self: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+a[class="2-link"] {
+    width: 200px;
+    border: 2px solid #fcc861;
+    border-radius: 2em;
+    background-color: #fcc861;
+    align-self: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px 20px 10px;
+    transition: transform 0.25s
+}
+
+a[class="2-link"]:hover {
+    box-shadow: 0px 5px 5px 0.5px black;
+    transform: translateY(-5px);
+}
+
+
+
+.course {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 150px;
+    justify-content: space-evenly;
+}
+
+.pythonbootcamp {
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pythondsa {
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.javadsa {
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    align-items: center;
+}
+
+img+div {
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 1.6em;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 2em;
+
+}
+
+input:hover {
+    box-shadow: 0px 5px 5px 0.5px rgba(0, 0, 0, 0.359);
+    transform: translateY(-5px);
+
+}
+
+label {
+    font-size: 2em;
+    align-self: flex-start;
+    margin: 0px 0px 20px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.samman {
+    font-size: 1.5em;
+    line-height: 1em;
+    width: 65%;
+}
+
+section[class="1-section"] {
+    padding: 100px 0px 100px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 200px 100px;
+}
+
+.div5 {
+    display: flex;
+
+
+}
+
+.div6 {
+    margin: 20px 10px;
+}
+
+.footer-section-3 {
+    padding: 100px 150px;
+    background-color: #fcc861;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-section-1 {
+    display: flex;
+    padding: 150px 30px;
+    justify-content: space-around;
+}
+
+.d8 {
+    width: 25px;
+    height: 25px;
+
+
+    margin: 0 10px
+}
